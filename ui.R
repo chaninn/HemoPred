@@ -21,7 +21,7 @@ shinyUI(fluidPage(title="HemoPred: a web server for predicting the hemolytic act
                                           # tags$label("Step 2 - Submit your job",style="float: none; width: 100%;"),
                                           actionButton("submitbutton", "Submit", class = "btn btn-primary"),
                                           HTML("<a class='btn btn-default' href='/hemopred'>Clear</a>")
-                                        ), #wellPanel
+                                        ),
                                         
                                         mainPanel(
                                           tags$label("Status/Output",style="float: none; width: 100%;"),
