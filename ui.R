@@ -4,7 +4,7 @@ library(shinythemes)
 library(protr)
 library(markdown)
 
-shinyUI(fluidPage(title="HemoPred: a web server for predicting the hemolytic activity of peptides", theme=shinytheme("united"),
+shinyUI(fluidPage(title="HemoPred: a web server for predicting the hemolytic activity of peptides", theme=shinytheme("united")),
                   useShinyjs(),
                   navbarPage(strong("HemoPred"), collapsible = TRUE,
                              titleContent <- HTML("<b>HemoPred</b>: a web server for predicting the hemolytic activity of peptides"),
