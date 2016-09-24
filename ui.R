@@ -39,3 +39,4 @@ shinyUI(fluidPage(title="HemoPred: a web server for predicting the hemolytic act
                              cat(as.character(copyright))
                   ) #navbarPage
 ) #fluidPage	
+)
